@@ -1,0 +1,36 @@
+.categoria{
+    width: 25%;
+    padding: 20px;
+}
+body{
+    background-color: #1a1815;
+    font-family: "DM Sans", sans-serif;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-column8{
+    width: 50%;
+    text-align: center;
+}
+.menu-column2{
+    width: 40%;
+    background-image: url("../img/fondo_header.jpg");
+    max-height: 100vh;
+}
+h2{
+    font-size: 32px;
+    color: #847c5c;
+}
+p{
+    font-size: 16px;
+    color: #ead49e;
+}
+@media only screen and (max-width: 660px){
+    .hidden{
+        display: none;
+    }    
+}

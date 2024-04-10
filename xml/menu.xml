@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+<categoria nombre="ENTRANTES">
+    <plato>
+      <nombre>KIATO SASHIMI DE SALMÓN</nombre>
+      <descripcion>Sashimi de salmón con aguacate citrico, sésamo negro y negi sobre salsa de zumo de yuzu y kimchi.</descripcion>
+      <caracteristicas> 
+        <item Categoria5="vegano"></item>
+      </caracteristicas>
+      <calorias>182 kcal</calorias>
+      <precio>23'80€</precio>
+      
+    </plato>
+    <plato>
+      <nombre>TIRADITO DE HAMACHI</nombre>
+      <descripcion>Corte fino de pez limón con pimiento rojo asado, sésamo y negi sobre salsa umami.</descripcion>
+      <calorias>307 kcal</calorias>
+      <precio>24'50€</precio>
+      <caracteristicas> 
+        <item Categoria2="carne"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>CARPACCIO DE VENTRESCA</nombre>
+      <descripcion>Ventresca de atun rojo calidad Balfegó marinada en salsa miso y ponzu.</descripcion>
+      <calorias>370 Kcal</calorias>
+      <precio>25'60€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>UMMAMI TARTAR MAGURO</nombre>
+      <descripcion>Tartar de atún rojo calidad Balfegó con vinagreta de mostaza y ponzu, salsa nikiri, sésamo y cebolleta.</descripcion>
+      <calorias>130 Kcal</calorias>
+      <precio>18'30€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+</categoria>
+<categoria nombre="NIGIRIS">
+    <plato>
+      <nombre>HAMACHI CITRUS</nombre>
+      <descripcion>Tartar de atún rojo calidad Balfegó con vinagreta de mostaza y ponzu, salsa nikiri, sésamo y cebolleta.</descripcion>
+      <calorias>130 Kcal</calorias>
+      <precio>18'30€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>ANGUILA KABAYAKI</nombre>
+      <descripcion>Anguila braseada con salsa Kabayaki y mango.</descripcion>
+      <calorias>293 kcal</calorias>
+      <precio>7'50€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>SAKE ABURI</nombre>
+      <descripcion>Salmón sopleteado con salsa miso, kimchi y copos de tempura.</descripcion>
+      <calorias>169 Kcal</calorias>
+      <precio>7'30€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>MAGURO</nombre>
+      <descripcion>Lomo de atún rojo marinado con setas enoki y salsa yakiniku.</descripcion>
+      <calorias>130 Kcal</calorias>
+      <precio>7'70€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+</categoria>
+<categoria nombre="URUMAKIS">
+    <plato>
+      <nombre>VEGGIE</nombre>
+      <descripcion>Aguacate, pimiento rojo asado, zanahoria, seta de cardo, pepino y salsa yuzu miso.</descripcion>
+      <calorias>65 Kcal/unidad</calorias>
+      <precio>6'85/13'70€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>MANGUILA 4/8 PIEZAS</nombre>
+      <descripcion>Anguila, pepino, shitake, mango y ricotta.</descripcion>
+      <calorias>130 Kcal/unidad</calorias>
+      <precio>8,10/15'80€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>ZAKUROLL 4/8 PIEZAS</nombre>
+      <descripcion>Lomo de atún rojo marinado con setas enoki y salsa yakiniku.</descripcion>
+      <calorias>130 Kcal/unidad</calorias>
+      <precio>7'70</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+      <plato>
+      <nombre>HAMACHI PONZU 4/8 PIEZAS</nombre>
+      <descripcion>Lomo de atún rojo marinado con setas enoki y salsa yakiniku.</descripcion>
+      <calorias>130 Kcal/unidad</calorias>
+      <precio>7'70</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+</categoria>
+<categoria nombre="HOSOMAKIS">
+</categoria>
+<categoria nombre="POSTRES">
+</categoria>
+<categoria nombre="BEBIDAS">
+  <plato>
+    <nombre>Sake</nombre>
+    <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado</descripcion>
+    <calorias>125 kcal</calorias>
+    <precio> 5.00€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+</categoria>
+</menu> 
