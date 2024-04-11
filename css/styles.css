@@ -2,18 +2,23 @@
     width: 25%;
     padding: 20px;
 }
+img{
+ width: 100%;   
+}
 body{
     background-color: #1a1815;
     font-family: "DM Sans", sans-serif;
-}
 
+}
 .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 .menu-column8{
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 .menu-column2{
@@ -24,6 +29,10 @@ body{
 h2{
     font-size: 32px;
     color: #847c5c;
+}
+.plato-nombre{
+    color: #3e392c;
+    font-weight: bold;
 }
 p{
     font-size: 16px;

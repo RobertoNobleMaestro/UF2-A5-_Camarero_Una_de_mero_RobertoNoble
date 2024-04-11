@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
   <head>
     <meta charset="UTF-8">
     <title>Carta de Sushi</title>
@@ -21,7 +19,7 @@
           echo '<div class="categoria">';
           echo '<h2 class="categoria-title">' . $categoria['nombre'] . '</h2>';
           foreach ($categoria->plato as $plato) {
-            echo '<div class="plato-nombre">' . $plato->nombre . '_____________________' . $plato->precio . '</p>' . '</div>';
+            echo '<div class="plato-nombre">' . $plato->nombre . '__________' . $plato->precio . '</p>' . '</div>';
             echo '<div class="plato-descripcion">' . '<p>' . $plato->descripcion . '</p>' . '</div>';            
             echo '<div class="plato-calorias">' . '<p>' . $plato->calorias . '</p>' . '</div>';
             if(isset($plato->caracteristicas->item['Categoria1']) && $plato->caracteristicas->item['Categoria1'] == 'glutenfree'){
@@ -40,37 +38,9 @@
               echo '<div class="plato-icon" title="Vegano"><i class="fas fa-carrot"></i></div>';
             }
             echo '<hr>';
-
           }
           echo '</div>';
         }
       ?>
-      <!-- <table class="icon">
-        <thead>
-        </thead>
-        <tbody>
-          <tr>
-            <td><i class="fas fa-seedling"></i></td>
-            <td>Libre de gluten</td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-drumstick-bite"></i></td>
-            <td>Contiene carne</td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-fish"></i></td>
-            <td>Contiene pescado</td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-wine-bottle"></i></td>
-            <td>Contiene alcohol</td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-carrot"></i></td>
-            <td>Vegano</td>
-          </tr>
-        </tbody>
-      </table> -->
     </div>
   </body>
-</html>

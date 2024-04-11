@@ -9,7 +9,6 @@
       </caracteristicas>
       <calorias>182 kcal</calorias>
       <precio>23'80€</precio>
-      
     </plato>
     <plato>
       <nombre>TIRADITO DE HAMACHI</nombre>
@@ -76,7 +75,7 @@
         <item Categoria3="pescado"></item>
       </caracteristicas>
     </plato>
-</categoria>
+ç</categoria>
 <categoria nombre="URUMAKIS">
     <plato>
       <nombre>VEGGIE</nombre>
@@ -98,33 +97,105 @@
     </plato>
     <plato>
       <nombre>ZAKUROLL 4/8 PIEZAS</nombre>
-      <descripcion>Lomo de atún rojo marinado con setas enoki y salsa yakiniku.</descripcion>
-      <calorias>130 Kcal/unidad</calorias>
-      <precio>7'70</precio>
+      <descripcion>Carne de cangrejo, kimichi, mezclum, aguacate, pepino, copos de etempura y mango.</descripcion>
+      <calorias>178 Kcal/unidad</calorias>
+      <precio>7'85/14'70€</precio>
       <caracteristicas> 
         <item Categoria3="pescado"></item>
       </caracteristicas>
     </plato>
-      <plato>
+    <plato>
       <nombre>HAMACHI PONZU 4/8 PIEZAS</nombre>
-      <descripcion>Lomo de atún rojo marinado con setas enoki y salsa yakiniku.</descripcion>
-      <calorias>130 Kcal/unidad</calorias>
-      <precio>7'70</precio>
+      <descripcion>Pez limón, aguacate, mango, ponzu ahumado, sesamo negro y micromezclum.</descripcion>
+      <calorias>165 Kcal/unidad</calorias>
+      <precio>7'90/14'80€</precio>
       <caracteristicas> 
         <item Categoria3="pescado"></item>
       </caracteristicas>
     </plato>
 </categoria>
 <categoria nombre="HOSOMAKIS">
+    <plato>
+      <nombre>KING CRAB</nombre>
+      <descripcion>Carne de cangrejo con pepino y kimchi</descripcion>
+      <calorias>250 Kcal</calorias>
+      <precio>11'50€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+        <plato>
+      <nombre>NEGITORO</nombre>
+      <descripcion>Ventresca de atun, sesamo, cebollino picado y wasabi</descripcion>
+      <calorias>400 Kcal</calorias>
+      <precio>13'20€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
+    <plato>
+      <nombre>UNAGI</nombre>
+      <descripcion>Anguila braseada con mango y sesamo.</descripcion>
+      <calorias>380 Kcal</calorias>
+      <precio>15'80€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
 </categoria>
 <categoria nombre="POSTRES">
+  <plato>
+    <nombre>LA TARTA DE LA MADRE DE CRIS</nombre>
+    <descripcion>Exquisita tarta de queso.</descripcion>
+    <calorias>600 kcal</calorias>
+    <precio>5.00€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+  <plato>
+    <nombre>SURTIDO DE MOCHIS</nombre>
+    <descripcion>Caramelo almendra, ter verde y café.</descripcion>
+    <calorias>460 kcal</calorias>
+    <precio>3'10/8'70€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
 </categoria>
 <categoria nombre="BEBIDAS">
   <plato>
     <nombre>Sake</nombre>
-    <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado</descripcion>
+    <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado.</descripcion>
     <calorias>125 kcal</calorias>
-    <precio> 5.00€</precio>
+    <precio>5.00€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+    <plato>
+    <nombre>Kirin</nombre>
+    <descripcion>Bebida alcohólica tradicional de japón, también llamada en España como cerveza.</descripcion>
+    <calorias>125 kcal</calorias>
+    <precio>4.50€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+    <plato>
+    <nombre>Cocacola</nombre>
+    <descripcion>Sumérgete en un mundo de sabor clásico con nuestra Coca-Cola refrescante. </descripcion>
+    <calorias>140 kcal</calorias>
+    <precio>3.00€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+    <plato>
+    <nombre>Agua</nombre>
+    <descripcion>Refrescante y cristalina, nuestro agua purificada de manantial es la elección perfecta para acompañar tu experiencia.</descripcion>
+    <calorias>0 kcal</calorias>
+    <precio>2.50€</precio>
     <caracteristicas> 
       <item Categoria4="alcohol"></item>
     </caracteristicas>
