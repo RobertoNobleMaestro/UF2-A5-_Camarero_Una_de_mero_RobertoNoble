@@ -114,6 +114,44 @@
       </caracteristicas>
     </plato>
 </categoria>
+<categoria nombre="BEBIDAS Y POSTRES">
+  <plato>
+    <nombre>SAKE</nombre>
+    <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado.</descripcion>
+    <calorias>125 kcal</calorias>
+    <precio>5.00€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+    <plato>
+    <nombre>Kirin</nombre>
+    <descripcion>Bebida alcohólica tradicional de japón, también llamada en España como cerveza.</descripcion>
+    <calorias>125 kcal</calorias>
+    <precio>4.50€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+  <plato>
+    <nombre>LA TARTA DE LA MADRE DE CRIS</nombre>
+    <descripcion>Exquisita tarta de queso.</descripcion>
+    <calorias>600 kcal</calorias>
+    <precio>5.00€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+  <plato>
+    <nombre>SURTIDO DE MOCHIS</nombre>
+    <descripcion>Caramelo almendra, ter verde y café.</descripcion>
+    <calorias>460 kcal</calorias>
+    <precio>3'10/8'70€</precio>
+    <caracteristicas> 
+      <item Categoria4="alcohol"></item>
+    </caracteristicas>
+  </plato>
+</categoria>
 <categoria nombre="HOSOMAKIS">
     <plato>
       <nombre>KING CRAB</nombre>
@@ -142,63 +180,15 @@
         <item Categoria3="pescado"></item>
       </caracteristicas>
     </plato>
-</categoria>
-<categoria nombre="POSTRES">
-  <plato>
-    <nombre>LA TARTA DE LA MADRE DE CRIS</nombre>
-    <descripcion>Exquisita tarta de queso.</descripcion>
-    <calorias>600 kcal</calorias>
-    <precio>5.00€</precio>
-    <caracteristicas> 
-      <item Categoria4="alcohol"></item>
-    </caracteristicas>
-  </plato>
-  <plato>
-    <nombre>SURTIDO DE MOCHIS</nombre>
-    <descripcion>Caramelo almendra, ter verde y café.</descripcion>
-    <calorias>460 kcal</calorias>
-    <precio>3'10/8'70€</precio>
-    <caracteristicas> 
-      <item Categoria4="alcohol"></item>
-    </caracteristicas>
-  </plato>
-</categoria>
-<categoria nombre="BEBIDAS">
-  <plato>
-    <nombre>Sake</nombre>
-    <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado.</descripcion>
-    <calorias>125 kcal</calorias>
-    <precio>5.00€</precio>
-    <caracteristicas> 
-      <item Categoria4="alcohol"></item>
-    </caracteristicas>
-  </plato>
     <plato>
-    <nombre>Kirin</nombre>
-    <descripcion>Bebida alcohólica tradicional de japón, también llamada en España como cerveza.</descripcion>
-    <calorias>125 kcal</calorias>
-    <precio>4.50€</precio>
-    <caracteristicas> 
-      <item Categoria4="alcohol"></item>
-    </caracteristicas>
-  </plato>
-    <plato>
-    <nombre>Cocacola</nombre>
-    <descripcion>Sumérgete en un mundo de sabor clásico con nuestra Coca-Cola refrescante. </descripcion>
-    <calorias>140 kcal</calorias>
-    <precio>3.00€</precio>
-    <caracteristicas> 
-      <item Categoria4="alcohol"></item>
-    </caracteristicas>
-  </plato>
-    <plato>
-    <nombre>Agua</nombre>
-    <descripcion>Refrescante y cristalina, nuestro agua purificada de manantial es la elección perfecta para acompañar tu experiencia.</descripcion>
-    <calorias>0 kcal</calorias>
-    <precio>2.50€</precio>
-    <caracteristicas> 
-      <item Categoria4="alcohol"></item>
-    </caracteristicas>
-  </plato>
+      <nombre>HOSOMAKI DE AGUACATE 4/8 PIEZAS</nombre>
+      <descripcion>Relleno de aguacate fresco, a veces complementado con mayonesa japonesa o salsa de soja para realzar el sabor.</descripcion>
+      <calorias>40 Kcal/PIEZA</calorias>
+      <precio>5/10€</precio>
+      <caracteristicas> 
+        <item Categoria3="pescado"></item>
+      </caracteristicas>
+    </plato>
 </categoria>
+
 </menu> 
