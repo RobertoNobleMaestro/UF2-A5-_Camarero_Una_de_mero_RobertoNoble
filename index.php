@@ -13,34 +13,48 @@
     <header>
       <img src="img/logo.png" alt="">
     </header>
-      <?php
-        $menu = simplexml_load_file('xml/menu.xml');
-        foreach ($menu->categoria as $categoria) {
+    <hr id="hr_footer">  
+    <?php
+      $menu = simplexml_load_file('xml/menu.xml');
+      foreach ($menu->categoria as $categoria) {
           echo '<div class="categoria">';
-          echo '<h2 class="categoria-title">' . $categoria['nombre'] . '</h2>';
+          echo '<h2 class="categoria-title">' . $categoria['nombre'] . '</h2>';   
           foreach ($categoria->plato as $plato) {
-            echo '<div class="plato-nombre">' . $plato->nombre . '__________' . $plato->precio . '</p>' . '</div>';
-            echo '<div class="plato-descripcion">' . '<p>' . $plato->descripcion . '</p>' . '</div>';            
-            echo '<div class="plato-calorias">' . '<p>' . $plato->calorias . '</p>' . '</div>';
-            if(isset($plato->caracteristicas->item['Categoria1']) && $plato->caracteristicas->item['Categoria1'] == 'glutenfree'){
-              echo '<div class="plato-icon" title="Libre de gluten"><i class="fas fa-seedling"></i></div>';
-            }
-            if(isset($plato->caracteristicas->item['Categoria2']) && $plato->caracteristicas->item['Categoria2'] == 'carne'){
-              echo '<div class="plato-icon" title="Contiene carne"><i class="fas fa-drumstick-bite"></i></div>';
-            }
-            if(isset($plato->caracteristicas->item['Categoria3']) && $plato->caracteristicas->item['Categoria3'] == 'pescado'){
-              echo '<div class="plato-icon" title="Contiene pescado"><i class="fas fa-fish"></i></div>';
-            }
-            if(isset($plato->caracteristicas->item['Categoria4']) && $plato->caracteristicas->item['Categoria4'] == 'alcohol'){
-              echo '<div class="plato-icon" title="Contiene alcohol"><i class="fas fa-wine-bottle"></i></div>';
-            }
-            if(isset($plato->caracteristicas->item['Categoria5']) && $plato->caracteristicas->item['Categoria5'] == 'vegano'){
-              echo '<div class="plato-icon" title="Vegano"><i class="fas fa-carrot"></i></div>';
-            }
-            echo '<hr>';
+              echo '<div class="plato">';
+              echo '<div class="plato-nombre">' . '<p>' . $plato->nombre .'</p>' . '</div>'; 
+              echo '<div class="plato-descripcion">' . '<p>' . $plato->descripcion . '</p>' . '</div>';
+              echo '<div class="plato-calorias">' . '<p>' . $plato->calorias . '</p>' . '</div>'; 
+              echo '<div class="plato-icones">'; 
+              if(isset($plato->caracteristicas->item['Categoria1']) && $plato->caracteristicas->item['Categoria1'] == 'picante'){
+                echo '<i class="fa-solid fa-pepper-hot"></i>';
+              }
+              if(isset($plato->caracteristicas->item['Categoria2']) && $plato->caracteristicas->item['Categoria2'] == 'pescado'){
+                  echo '<i class="fas fa-fish"></i>' . ' ';
+              }
+              if(isset($plato->caracteristicas->item['Categoria3']) && $plato->caracteristicas->item['Categoria3'] == 'alcohol'){
+                  echo '<i class="fa-solid fa-beer-mug-empty"></i>';
+              }
+              if(isset($plato->caracteristicas->item['Categoria4']) && $plato->caracteristicas->item['Categoria4'] == 'vegano'){
+                  echo '<i class="fa-solid fa-seedling"></i>';
+              }
+              echo '</div>'; 
+              echo '<div class="plato-precio">' . '<p>' . $plato->precio . '</p>' . '</div>';
+              echo '</div>'; 
+              echo '<hr>'; 
           }
-          echo '</div>';
-        }
-      ?>
+          echo '</div>'; 
+      }
+    ?>
+    <hr id="hr_footer">  
     </div>
+    <footer>
+      <h2>INFORMACION ALIMENTICIA</h2> 
+      <div class="row">
+        <p>Contiene alcohol | <i class="fa-solid fa-beer-mug-empty"></i></p>          
+        <p>Contiene picante | <i class="fa-solid fa-pepper-hot"></i></p>          
+        <p>Contiene pescado | <i class="fas fa-fish"></i></p>   
+        <p>Comida vegana | <i class="fa-solid fa-seedling"></i>   </p>  
+      </div>
+
+    </footer>
   </body>

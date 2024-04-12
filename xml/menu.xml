@@ -5,7 +5,7 @@
       <nombre>KIATO SASHIMI DE SALMÓN</nombre>
       <descripcion>Sashimi de salmón con aguacate citrico, sésamo negro y negi sobre salsa de zumo de yuzu y kimchi.</descripcion>
       <caracteristicas> 
-        <item Categoria5="vegano"></item>
+        <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
       <calorias>182 kcal</calorias>
       <precio>23'80€</precio>
@@ -16,7 +16,7 @@
       <calorias>307 kcal</calorias>
       <precio>24'50€</precio>
       <caracteristicas> 
-        <item Categoria2="carne"></item>
+        <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -25,7 +25,7 @@
       <calorias>370 Kcal</calorias>
       <precio>25'60€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -34,7 +34,7 @@
       <calorias>130 Kcal</calorias>
       <precio>18'30€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
     </plato>
 </categoria>
@@ -45,7 +45,7 @@
       <calorias>130 Kcal</calorias>
       <precio>18'30€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -54,7 +54,7 @@
       <calorias>293 kcal</calorias>
       <precio>7'50€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -63,7 +63,7 @@
       <calorias>169 Kcal</calorias>
       <precio>7'30€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado" Categoria3="alcohol"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -72,10 +72,10 @@
       <calorias>130 Kcal</calorias>
       <precio>7'70€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado" Categoria3="alcohol"></item>
       </caracteristicas>
     </plato>
-ç</categoria>
+</categoria>
 <categoria nombre="URUMAKIS">
     <plato>
       <nombre>VEGGIE</nombre>
@@ -83,16 +83,16 @@
       <calorias>65 Kcal/unidad</calorias>
       <precio>6'85/13'70€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria4="vegano"></item>
       </caracteristicas>
     </plato>
     <plato>
       <nombre>MANGUILA 4/8 PIEZAS</nombre>
-      <descripcion>Anguila, pepino, shitake, mango y ricotta.</descripcion>
+      <descripcion>Pepino, shitake, mango y ricotta.</descripcion>
       <calorias>130 Kcal/unidad</calorias>
       <precio>8,10/15'80€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria4="vegano"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -101,7 +101,7 @@
       <calorias>178 Kcal/unidad</calorias>
       <precio>7'85/14'70€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -110,7 +110,7 @@
       <calorias>165 Kcal/unidad</calorias>
       <precio>7'90/14'80€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
     </plato>
 </categoria>
@@ -121,16 +121,16 @@
     <calorias>125 kcal</calorias>
     <precio>5.00€</precio>
     <caracteristicas> 
-      <item Categoria4="alcohol"></item>
+      <item Categoria3="alcohol" Categoria4="vegano"></item>
     </caracteristicas>
   </plato>
     <plato>
-    <nombre>Kirin</nombre>
+    <nombre>KIRIN</nombre>
     <descripcion>Bebida alcohólica tradicional de japón, también llamada en España como cerveza.</descripcion>
     <calorias>125 kcal</calorias>
     <precio>4.50€</precio>
     <caracteristicas> 
-      <item Categoria4="alcohol"></item>
+      <item Categoria3="alcohol" Categoria4="vegano"></item>
     </caracteristicas>
   </plato>
   <plato>
@@ -139,7 +139,7 @@
     <calorias>600 kcal</calorias>
     <precio>5.00€</precio>
     <caracteristicas> 
-      <item Categoria4="alcohol"></item>
+      <item Categoria4="vegano"></item>
     </caracteristicas>
   </plato>
   <plato>
@@ -148,7 +148,7 @@
     <calorias>460 kcal</calorias>
     <precio>3'10/8'70€</precio>
     <caracteristicas> 
-      <item Categoria4="alcohol"></item>
+      <item Categoria4="vegano"></item>
     </caracteristicas>
   </plato>
 </categoria>
@@ -159,7 +159,7 @@
       <calorias>250 Kcal</calorias>
       <precio>11'50€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
     </plato>
         <plato>
@@ -168,7 +168,7 @@
       <calorias>400 Kcal</calorias>
       <precio>13'20€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -177,7 +177,7 @@
       <calorias>380 Kcal</calorias>
       <precio>15'80€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria2="pescado"></item>
       </caracteristicas>
     </plato>
     <plato>
@@ -186,9 +186,8 @@
       <calorias>40 Kcal/PIEZA</calorias>
       <precio>5/10€</precio>
       <caracteristicas> 
-        <item Categoria3="pescado"></item>
+        <item Categoria4="vegano"></item>
       </caracteristicas>
     </plato>
 </categoria>
-
 </menu> 

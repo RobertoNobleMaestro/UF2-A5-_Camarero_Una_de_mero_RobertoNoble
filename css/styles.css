@@ -1,45 +1,96 @@
-.categoria{
-    width: 25%;
-    padding: 20px;
-}
-img{
- width: 100%;   
-}
-body{
+/* Estilos generales */
+body {
     background-color: #1a1815;
-    font-family: "DM Sans", sans-serif;
+    font-family: 'Barlow', sans-serif;
+    color: #ead49e; /* Color del texto */
+    margin: 0;
+    padding: 0;
+}
 
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .row {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
-.menu-column8{
-    width: 50%;
+
+/* Estilos de la cabecera */
+header {
+    width: 100%;
+    padding: 20px 0;
     text-align: center;
 }
-.menu-column2{
-    width: 40%;
-    background-image: url("../img/fondo_header.jpg");
-    max-height: 100vh;
+
+header img {
+    height: auto;
 }
-h2{
-    font-size: 32px;
-    color: #847c5c;
+
+/* Estilos de las categorías */
+.categoria {
+    width: 100%;
+    max-width: 400px; /* Tamaño máximo de la categoría */
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #2c2924; /* Color de fondo de la categoría */
+    border-radius: 10px;
 }
-.plato-nombre{
-    color: #3e392c;
+
+.categoria-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #847c5c; /* Color del título de la categoría */
+}
+
+/* Estilos de los platos */
+.plato-nombre {
     font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
 }
-p{
-    font-size: 16px;
-    color: #ead49e;
+
+.plato-descripcion {
+    margin-bottom: 10px;
+    width: 100%;
 }
-@media only screen and (max-width: 660px){
-    .hidden{
-        display: none;
-    }    
+
+.plato-calorias {
+    color: #6a624f; /* Color del texto de las calorías */
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+}
+.plato-precio{
+    text-align: end;
+}
+.plato-icones i{
+    margin-right: 8px;
+
+}
+
+/* Línea entre platos */
+hr {
+    border: none;
+    border-top: 1px solid #6a624f; /* Color de la línea */
+    margin: 20px 0;
+}
+#hr_footer{
+    border: none;
+    width: 80%;
+    border-top: 3px solid #6a624f; /* Color de la línea */
+    margin: 20px 0;
+}
+footer{
+    height: 20vh;
+    text-align: center;
+    width: 100%;
+}
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 660px) {
+    .categoria {
+        max-width: 100%; /* Utilizar todo el ancho en pantallas pequeñas */
+    }
 }
