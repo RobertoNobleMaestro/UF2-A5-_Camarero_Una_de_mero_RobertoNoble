@@ -20,11 +20,13 @@
           echo '<div class="categoria">';
           echo '<h2 class="categoria-title">' . $categoria['nombre'] . '</h2>';   
           foreach ($categoria->plato as $plato) {
-              echo '<div class="plato">';
-              echo '<div class="plato-nombre">' . '<p>' . $plato->nombre .'</p>' . '</div>'; 
-              echo '<div class="plato-descripcion">' . '<p>' . $plato->descripcion . '</p>' . '</div>';
-              echo '<div class="plato-calorias">' . '<p>' . $plato->calorias . '</p>' . '</div>'; 
-              echo '<div class="plato-icones">'; 
+            echo '<div class="plato">';
+            echo '<div class="plato-info">';
+            echo '<div class="plato-detalle">';
+            echo '<div class="plato-nombre">' . '<p>' . $plato->nombre .'</p>' . '</div>'; 
+            echo '<div class="plato-descripcion">' . '<p>' . $plato->descripcion . '</p>' . '</div>';
+            echo '<div class="plato-imagen">' . '<img src="' . $plato->imagen . '" alt="' . $plato->nombre . '">' . '</div>';
+            echo '</div>'; 
               if(isset($plato->caracteristicas->item['Categoria1']) && $plato->caracteristicas->item['Categoria1'] == 'picante'){
                 echo '<i class="fa-solid fa-pepper-hot"></i>';
               }

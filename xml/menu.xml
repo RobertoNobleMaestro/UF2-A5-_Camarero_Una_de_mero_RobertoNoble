@@ -4,6 +4,7 @@
     <plato>
       <nombre>KIATO SASHIMI DE SALMÓN</nombre>
       <descripcion>Sashimi de salmón con aguacate citrico, sésamo negro y negi sobre salsa de zumo de yuzu y kimchi.</descripcion>
+      <imagen>img\img1.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
@@ -15,6 +16,7 @@
       <descripcion>Corte fino de pez limón con pimiento rojo asado, sésamo y negi sobre salsa umami.</descripcion>
       <calorias>307 kcal</calorias>
       <precio>24'50€</precio>
+      <imagen>img\img2.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
@@ -24,6 +26,7 @@
       <descripcion>Ventresca de atun rojo calidad Balfegó marinada en salsa miso y ponzu.</descripcion>
       <calorias>370 Kcal</calorias>
       <precio>25'60€</precio>
+      <imagen>img\img3.webp</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado"></item>
       </caracteristicas>
@@ -33,6 +36,7 @@
       <descripcion>Tartar de atún rojo calidad Balfegó con vinagreta de mostaza y ponzu, salsa nikiri, sésamo y cebolleta.</descripcion>
       <calorias>130 Kcal</calorias>
       <precio>18'30€</precio>
+      <imagen>img\img4.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
@@ -41,8 +45,9 @@
 <categoria nombre="NIGIRIS">
     <plato>
       <nombre>HAMACHI CITRUS</nombre>
-      <descripcion>Tartar de atún rojo calidad Balfegó con vinagreta de mostaza y ponzu, salsa nikiri, sésamo y cebolleta.</descripcion>
+      <descripcion>Pez limón con salsa de lima.</descripcion>
       <calorias>130 Kcal</calorias>
+      <imagen>img\img5.jpg</imagen> 
       <precio>18'30€</precio>
       <caracteristicas> 
         <item Categoria2="pescado" Categoria1="picante"></item>
@@ -53,6 +58,7 @@
       <descripcion>Anguila braseada con salsa Kabayaki y mango.</descripcion>
       <calorias>293 kcal</calorias>
       <precio>7'50€</precio>
+      <imagen>img\img6.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado"></item>
       </caracteristicas>
@@ -62,6 +68,7 @@
       <descripcion>Salmón sopleteado con salsa miso, kimchi y copos de tempura.</descripcion>
       <calorias>169 Kcal</calorias>
       <precio>7'30€</precio>
+      <imagen>img\img7.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria3="alcohol"></item>
       </caracteristicas>
@@ -71,6 +78,7 @@
       <descripcion>Lomo de atún rojo marinado con setas enoki y salsa yakiniku.</descripcion>
       <calorias>130 Kcal</calorias>
       <precio>7'70€</precio>
+      <imagen>img\img8.webp</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria3="alcohol"></item>
       </caracteristicas>
@@ -82,6 +90,7 @@
       <descripcion>Aguacate, pimiento rojo asado, zanahoria, seta de cardo, pepino y salsa yuzu miso.</descripcion>
       <calorias>65 Kcal/unidad</calorias>
       <precio>6'85/13'70€</precio>
+      <imagen>img\img9.jpg</imagen> 
       <caracteristicas> 
         <item Categoria4="vegano"></item>
       </caracteristicas>
@@ -91,6 +100,7 @@
       <descripcion>Pepino, shitake, mango y ricotta.</descripcion>
       <calorias>130 Kcal/unidad</calorias>
       <precio>8,10/15'80€</precio>
+      <imagen>img\img10.jpg</imagen> 
       <caracteristicas> 
         <item Categoria4="vegano"></item>
       </caracteristicas>
@@ -100,6 +110,7 @@
       <descripcion>Carne de cangrejo, kimichi, mezclum, aguacate, pepino, copos de etempura y mango.</descripcion>
       <calorias>178 Kcal/unidad</calorias>
       <precio>7'85/14'70€</precio>
+      <imagen>img\img11.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado"></item>
       </caracteristicas>
@@ -109,6 +120,7 @@
       <descripcion>Pez limón, aguacate, mango, ponzu ahumado, sesamo negro y micromezclum.</descripcion>
       <calorias>165 Kcal/unidad</calorias>
       <precio>7'90/14'80€</precio>
+      <imagen>img\img12.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
@@ -120,6 +132,7 @@
     <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado.</descripcion>
     <calorias>125 kcal</calorias>
     <precio>5.00€</precio>
+    <imagen>img\img13.webp</imagen> 
     <caracteristicas> 
       <item Categoria3="alcohol" Categoria4="vegano"></item>
     </caracteristicas>
@@ -129,6 +142,7 @@
     <descripcion>Bebida alcohólica tradicional de japón, también llamada en España como cerveza.</descripcion>
     <calorias>125 kcal</calorias>
     <precio>4.50€</precio>
+    <imagen>img\img14.jpg</imagen> 
     <caracteristicas> 
       <item Categoria3="alcohol" Categoria4="vegano"></item>
     </caracteristicas>
@@ -138,6 +152,7 @@
     <descripcion>Exquisita tarta de queso.</descripcion>
     <calorias>600 kcal</calorias>
     <precio>5.00€</precio>
+    <imagen>img\img15.jpg</imagen> 
     <caracteristicas> 
       <item Categoria4="vegano"></item>
     </caracteristicas>
@@ -147,6 +162,7 @@
     <descripcion>Caramelo almendra, ter verde y café.</descripcion>
     <calorias>460 kcal</calorias>
     <precio>3'10/8'70€</precio>
+    <imagen>img\img16.jpg</imagen> 
     <caracteristicas> 
       <item Categoria4="vegano"></item>
     </caracteristicas>
@@ -158,6 +174,7 @@
       <descripcion>Carne de cangrejo con pepino y kimchi</descripcion>
       <calorias>250 Kcal</calorias>
       <precio>11'50€</precio>
+      <imagen>img\img17.webp</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
@@ -167,6 +184,7 @@
       <descripcion>Ventresca de atun, sesamo, cebollino picado y wasabi</descripcion>
       <calorias>400 Kcal</calorias>
       <precio>13'20€</precio>
+      <imagen>img\img18.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado" Categoria1="picante"></item>
       </caracteristicas>
@@ -176,6 +194,7 @@
       <descripcion>Anguila braseada con mango y sesamo.</descripcion>
       <calorias>380 Kcal</calorias>
       <precio>15'80€</precio>
+      <imagen>img\img19.jpg</imagen> 
       <caracteristicas> 
         <item Categoria2="pescado"></item>
       </caracteristicas>
@@ -185,6 +204,7 @@
       <descripcion>Relleno de aguacate fresco, a veces complementado con mayonesa japonesa o salsa de soja para realzar el sabor.</descripcion>
       <calorias>40 Kcal/PIEZA</calorias>
       <precio>5/10€</precio>
+      <imagen>img\img20.jpg</imagen> 
       <caracteristicas> 
         <item Categoria4="vegano"></item>
       </caracteristicas>
